@@ -1,0 +1,128 @@
+body {
+    background-color: white;
+  }
+  
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+  }
+  p:link {
+    color: white;
+  }
+  
+  p:visited {
+    color: #020000;
+  }
+
+  p:hover {
+    font-size: 40px;
+
+  }
+  .header {
+    max-width: 880px;
+    height: 30px;
+    background-color: white;
+    padding: 50px;
+  }
+
+  /* -----main links-------*/
+  a {
+    text-decoration: none;
+    
+  }
+  
+  a:link {
+    color: white;
+  }
+  
+  a:visited {
+    color: #020000;
+  }
+  
+  a:hover {
+    font-size: 50px;
+      }
+
+/* -----navigation-------*/  
+
+
+
+
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-auto-rows: 210px;
+    background-color:white;
+    padding: 50px 50px 50px 50px;
+  }
+
+  .one {
+    background-color:#5bc7ad;
+  }
+  .two {
+    background-color:#2791b9;
+  }
+  .three {
+    background-color:#e9ce01;
+  }
+  .four {
+    background-color: #bc66af ;
+  }
+  .five {
+    background-color:#ca2313;
+  }
+  .six {
+    background-color:#e485a3 ;
+  }
+  .seven {
+    background-color:#0b835d;
+  }
+  .eight {
+    background-color:#ea7c1a ;
+  }
+  .nine {
+    background-color:#88a5e1;
+  }
+
+
+      
+/* -----logo  
+
+  img {
+    transition:transform .5s;
+  }
+  
+  img:hover {
+    transform: rotate(1turn);
+  }
+-------*/ 
+.painting {}
+
+  /* -----media queries-------*/
+  
+      @media only screen and (min-width: 769px){
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        grid-auto-rows: 250px;
+        background-color:white;
+        padding: 50px 50px 50px 50px;}
+      }
+
+      @media only screen and (min-width: 1282px){
+        .grid {
+          max-width: 1900px;
+          display: grid;
+          grid-template-columns: repeat(5, 1fr);
+          grid-column-gap: 20px;
+          grid-row-gap: 20px;
+          grid-auto-rows: 250px;
+          background-color:white;
+          padding: 50px 50px 50px 50px;}
+      }
